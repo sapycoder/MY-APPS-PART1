@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff667895"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000FFF"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="SAPY MUSIC PLAYER"
+        android:textStyle="bold"
+        android:layout_marginBottom="70dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/play_button"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:backgroundTint="#459900"
+        android:textSize="30sp"
+        android:text="PLAY" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pause_button"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:backgroundTint="#ff5678"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:text="PAUSE" />
+
+</LinearLayout>

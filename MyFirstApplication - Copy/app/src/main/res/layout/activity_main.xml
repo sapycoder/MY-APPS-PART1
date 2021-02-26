@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/party"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/hello"
+        android:layout_paddingTop="60dp"
+        android:layout_paddinLeft="60dp"
+        android:text="merry merry christmas, santa is coming !! "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/christmas"
+        android:scaleType="centerCrop"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/new_year"
+            android:text="happy new year 2021"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/newyear"
+            android:textSize="30sp"
+            android:layout_margin="30dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@id/hello"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/watermark"
+        android:layout_height="wrap_content"
+        android:text="Love: Shrutika :)"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@color/design_default_color_on_primary"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shrutika"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/watermark"
+ />
+
+
+</RelativeLayout>
